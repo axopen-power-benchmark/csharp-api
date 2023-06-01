@@ -19,7 +19,7 @@ dotnet
 dotnet build -c Release
 
 # Démarrage du serveur
-csharp-api\bin\Release\net6.0\csharp-api.exe
+dotnet run -c Release --project csharp-api
 
 ```
 
